@@ -1,0 +1,2 @@
+The classic Rock, Paper, Scissors game with an extra that you can add a new hand ("water" for example) and you can choose what hands it wins against. 
+You have to choose the number of round you want to play first. The both players hands are chosen at random and a winner is declared. If they are even the round is replayed until a player wins.
