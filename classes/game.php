@@ -83,12 +83,15 @@ class Game {
     }
 
     private function declareFinalWiner($playerOneWins, $playerTwoWins) {
+        
+        echo "Player 1 total wins: " . $playerOneWins . "<br>";
+        echo "Player 2 total wins: " . $playerTwoWins . "<br>";
+        
         if($playerOneWins == $playerTwoWins) {
             echo "The players are even!";
         } else { 
             $result = ($playerOneWins > $playerTwoWins) ? '1' : '2';
-            echo "Player 1 total wins: " . $playerOneWins . "<br>";
-            echo "Player 2 total wins: " . $playerTwoWins . "<br>";
+            
             echo "Player " . $result . " is the FINAL winner";
         }
     }

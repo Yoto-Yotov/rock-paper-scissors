@@ -4,7 +4,7 @@ spl_autoload_register();
 
 $game = new Game();
 
-$game->play_rounds(1);
+$game->play_rounds(4);
 
 // Uncomment to see hands and what hand do they win against
 // print_r($game->get_hands());
